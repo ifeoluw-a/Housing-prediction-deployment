@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-df = pd.read_csv("clean_data.csv")
+df = pd.read_csv("cleaned_data.csv")
 
 
 def pred_page():
