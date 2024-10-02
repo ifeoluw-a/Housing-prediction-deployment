@@ -21,4 +21,6 @@ with st.sidebar:
 
 if selected == "Home":
     Home()
+elif selected == "Prediction":
+    pred_page()
 
