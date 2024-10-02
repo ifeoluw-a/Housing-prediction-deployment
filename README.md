@@ -62,3 +62,36 @@ To set up the project locally, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/ifeoluw-a/housing-price-prediction.git
+2. Navigate to the project directory:
+    ```bash
+    cd housing-price-prediction
+3. Create and activate a virtual environment:
+    ```bash
+    python -m venv venv
+    On Windows: venv\Scripts\activate
+4. Install the required dependencies:
+    ```bash
+    pip install -r requirements.txt
+
+
+## Model Evaluation
+The model's performance is evaluated using the following metrics:
+
+- **R-squared (R²)**: Indicates how well the features explain the variability in the target variable.
+- **Mean Absolute Error (MAE)**: Represents the average magnitude of errors in predictions.
+- **Root Mean Squared Error (RMSE)**: Provides the square root of the average of squared differences between predicted and actual values.
+
+## Deployment
+The project is deployed using Streamlit, allowing users to input housing features and receive estimated prices in real-time. Follow the instructions in the How to Use section to access the deployed application.
+
+## Contributing
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
+
+- Fork the repository.
+- Create a new branch: git checkout -b feature/YourFeature.
+- Make your changes and commit them: git commit -m 'Add YourFeature'.
+- Push to the branch: git push origin feature/YourFeature.
+- Open a pull request.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
